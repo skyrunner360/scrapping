@@ -16,7 +16,7 @@ class QuotetutorialPipeline(object):
         self.conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='toor',
+            passwd='',
             database='quotes'
 
         )
